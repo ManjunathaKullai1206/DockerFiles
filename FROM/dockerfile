@@ -1,1 +1,3 @@
 FROM almalinux:9
+dnf install nginx -y
+RUN echo "Hello from Dockerfile" > /usr/share/nginx/html/index.html
