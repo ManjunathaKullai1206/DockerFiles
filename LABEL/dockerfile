@@ -1,0 +1,8 @@
+FROM almalinux:9
+
+LABEL COURSE="Devops" \
+      TOPIC="Docker" \
+      EXERCISE="Dockerfile" \
+      VERSION="1.0" \
+      DURATION="1 hour" \
+      AUTHOR="Manjunatha" 
