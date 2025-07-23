@@ -1,0 +1,9 @@
+FROM almalinux:9
+
+ENV COURSE="Devops" \
+    TOPIC="Docker" \
+    EXERCISE="Dockerfile" \
+    VERSION="1.0" \
+    DURATION="1 hour" \
+    AUTHOR="Manjunatha" \
+    GITHUB_REPO="https://github.com/ManjunathaKullai1206/DockerFiles.git"
