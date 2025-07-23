@@ -1,6 +1,7 @@
 FROM almalinux:9
-dnf install nginx -y
-#COPY index.html /usr/share/nginx/html/index.html
+
+echo "This is a ping container"
+
 
 CMD ["google.com"]
 ENTRYPOINT ["ping"]
