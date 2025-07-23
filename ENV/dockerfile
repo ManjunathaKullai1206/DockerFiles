@@ -7,3 +7,5 @@ ENV COURSE="Devops" \
     DURATION="1 hour" \
     AUTHOR="Manjunatha" \
     GITHUB_REPO="https://github.com/ManjunathaKullai1206/DockerFiles.git"
+
+    CMD ["sleep", "1000"]
