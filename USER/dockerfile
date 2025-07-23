@@ -1,0 +1,13 @@
+FROM almalinux:9
+
+#echo "This is a ping container"
+
+dnf install git -y
+
+RUN adduser Manjunatha
+
+USER Manjunatha
+
+
+CMD ["google.com"]
+ENTRYPOINT ["ping"]
